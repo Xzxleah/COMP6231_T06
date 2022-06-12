@@ -10,7 +10,7 @@ you can run your code using .bat file provided otherwise you can run following c
 * java loadbalancer/Server 6001
 * java loadbalancer/Server 6002
 * java loadbalancer/Server 6003
-* START java loadbalancer/Server 6004
+* java loadbalancer/Server 6004
 
 * java loadbalancer/Loadbalancer
 * java loadbalancer/EchoClient
