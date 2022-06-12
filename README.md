@@ -4,4 +4,17 @@ The template is provided to start a code for Lab 6. and There a task included in
 
 you will find lab manual given in the folder. please read it carefully.
 
+you can run your code using .bat file provided otherwise you can run following commands.
 
+cmd /c START java loadbalancer/Server 6001
+cmd /c START java loadbalancer/Server 6002
+cmd /c START java loadbalancer/Server 6003
+cmd /c START java loadbalancer/Server 6004
+
+cmd /c START java loadbalancer/Loadbalancer
+cmd /c START java loadbalancer/EchoClient
+cmd /c START java loadbalancer/EchoClient
+cmd /c START java loadbalancer/EchoClient
+cmd /c START java loadbalancer/EchoClient
+cmd /c START java loadbalancer/EchoClient
+cmd /c START java loadbalancer/EchoClient
