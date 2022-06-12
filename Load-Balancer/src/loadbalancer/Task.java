@@ -35,8 +35,7 @@ public class Task implements Runnable {
             inClient = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             outClient = new PrintStream(clientSocket.getOutputStream());
 
-            // TODO Establish a TCP connection with a server which is running on port number(i.e portServer) provided
-            // and create a read and write stream
+            // TODO Establish a TCP connection with a server which is running on port number(i.e portServer) provided and create a buffers to read and write
 
 
 
