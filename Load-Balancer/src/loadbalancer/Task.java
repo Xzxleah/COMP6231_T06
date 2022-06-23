@@ -45,7 +45,7 @@ public class Task implements Runnable {
             while (true) {
                 //TODO read the data which client sends and pass it to the server for processing of that data. Once, it is processed then return it to the client back.
                 String inputFromUser = inClient.readLine();
-                while (inputFromUser != null){
+                if (inputFromUser != null){
                     // Send input to Server from client
                     outServer.println(inputFromUser);
                     outServer.flush();
