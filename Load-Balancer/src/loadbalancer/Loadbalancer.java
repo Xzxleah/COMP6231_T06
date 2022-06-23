@@ -27,6 +27,8 @@ public class Loadbalancer {
                 System.out.println("I got a new Client.");
                 //TODO start new task(Task class instance) and pass the client and the server(according to round-robin algorithm) as a parameter.
                 // you must start new thread for each new task.
+                Thread t = new Thread(new Task(clientSocket, RR.next()));
+                t.start();
 
             }
         } catch (Exception e) {

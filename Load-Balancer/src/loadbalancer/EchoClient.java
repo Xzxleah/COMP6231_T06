@@ -22,6 +22,7 @@ public class EchoClient {
             SocketClient = new Socket("127.0.0.1", 6231);
             OutputStream = new PrintStream(SocketClient.getOutputStream());
             InputStream = new BufferedReader(new InputStreamReader(SocketClient.getInputStream()));
+
             for (int i = 0; i < 5; i++) {
                 mathProb = Problem.generateEq();
                 OutputStream.println(mathProb);
